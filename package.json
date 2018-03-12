@@ -1,0 +1,36 @@
+{
+  "name": "@tonik/stylelint-config-scss",
+  "version": "1.0.0",
+  "description": "A shareable stylelint config for SCSS used at Tonik",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "scss",
+    "sass",
+    "tonik"
+  ],
+  "author": "Tonik <hello@tonik.pl> (http://tonik.pl)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonik/stylelint-config-scss.git"
+  },
+  "homepage": "https://github.com/tonik/stylelint-config-scss",
+  "bugs": {
+    "url": "https://github.com/tonik/stylelint-config-scss/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@tonik/stylelint-config": "^1.0.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "devDependencies": {
+    "stylelint": "^8.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.4.0"
+  }
+}
