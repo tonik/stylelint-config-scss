@@ -1,6 +1,6 @@
 # stylelint-config-scss
 
-> A shareable config for stylelint used at Tonik
+> A shareable stylelint config for SCSS used at Tonik
 
 ## Installation
 
