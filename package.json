@@ -24,7 +24,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@tonik/stylelint-config": "^1.0.0",
+    "@tonik/stylelint-config": "github:tonik/stylelint-config",
     "stylelint-scss": "^2.1.0"
   },
   "devDependencies": {
