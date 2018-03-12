@@ -23,13 +23,13 @@
     "index.js"
   ],
   "dependencies": {
-    "@tonik/stylelint-config": "github:tonik/stylelint-config",
+    "@tonik/stylelint-config": "^2.0.0",
     "stylelint-scss": "^2.1.0"
   },
   "devDependencies": {
-    "stylelint": "^8.0.0 || ^9.0.0"
+    "stylelint": "^8.0.0||^9.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.0.0 || ^9.0.0"
+    "stylelint": "^8.0.0||^9.0.0"
   }
 }
