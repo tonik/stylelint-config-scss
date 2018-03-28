@@ -5,7 +5,8 @@ module.exports = {
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "scss/double-slash-comment-empty-line-before": ["always", {
-      "except": ["first-nested"]
+      "except": ["first-nested"],
+      "ignore": ["between-comments", "stylelint-commands"]
     }],
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
