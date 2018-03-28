@@ -3,6 +3,7 @@ module.exports = {
   "plugins": ["stylelint-scss"],
   "rules": {
     "at-rule-no-unknown": null,
+    "no-descending-specificity": false, // Temp turn off, because there is a problem with selectors that using `#{$this}`.
     "scss/at-rule-no-unknown": true,
     "scss/double-slash-comment-empty-line-before": ["always", {
       "except": ["first-nested"]
