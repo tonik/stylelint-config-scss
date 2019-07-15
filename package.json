@@ -1,6 +1,6 @@
 {
   "name": "@tonik/stylelint-config-scss",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A shareable stylelint config for SCSS used at Tonik",
   "keywords": [
     "stylelint",
@@ -23,13 +23,13 @@
     "index.js"
   ],
   "dependencies": {
-    "@tonik/stylelint-config": "^2.0.0",
-    "stylelint-scss": "^2.1.0"
+    "@tonik/stylelint-config": "^3.0.0",
+    "stylelint-scss": "^3.9.0"
   },
   "devDependencies": {
-    "stylelint": "^8.0.0||^9.0.0"
+    "stylelint": "^10.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.0.0||^9.0.0"
+    "stylelint": "^10.0.0"
   }
 }
